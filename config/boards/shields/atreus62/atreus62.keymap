@@ -25,7 +25,6 @@
 				&kp LSHFT &kp Z    &kp X &kp C &kp V &kp B  &kp N   &kp M  &kp COMMA &kp DOT &kp BSLH &kp RET
 				&kp Q &kp Q &kp Q &kp Q &kp Q &kp Q &kp Q &kp Q &kp Q &kp Q &kp Q &kp Q &kp Q &kp Q
 			>;
-			sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
 		};
 	};
 };
