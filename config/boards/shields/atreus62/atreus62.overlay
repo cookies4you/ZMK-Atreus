@@ -12,7 +12,7 @@
 
     default_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
-        columns = <13>;
+        columns = <14>;
         rows = <5>;
         map = <
 RC(0,0) RC(0,1) RC(0,2) RC(0,3) RC(0,4) RC(0,5)                 RC(0,6) RC(0,7) RC(0,8) RC(0,9) RC(0,10) RC(0,11)
@@ -22,11 +22,7 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5)                 RC(3,6) RC(3,7) 
 RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4) RC(4,5) RC(4,6) RC(4,7) RC(4,8) RC(4,9) RC(4,10) RC(4,11) RC(4,12) RC(4,13)
         >;
     };
-
-    /* Very unsure on this, seems like QMK uses different names?
-     * https://github.com/qmk/qmk_firmware/blob/master/keyboards/atreus62/config.h
-     * https://deskthority.net/wiki/Arduino_Pro_Micro#Pinout
-     */
+    
     kscan0: kscan_0 {
         compatible = "zmk,kscan-gpio-matrix";
         label = "KSCAN";
@@ -52,7 +48,7 @@ RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4) RC(4,5) RC(4,6) RC(4,7) RC(4,8) RC(4,9) 
                 , <&pro_micro_a 9 GPIO_ACTIVE_HIGH> /* QMK B5 */
                 , <&pro_micro_a 8 GPIO_ACTIVE_HIGH> /* QMK B4 */
                 , <&pro_micro_d 7 GPIO_ACTIVE_HIGH> /* QMK E6 */
-                , <&pro_micro_a 7 GPIO_ACTIVE_HIGH> /* QMK D7 */
+                , <&pro_micro_a 6 GPIO_ACTIVE_HIGH> /* QMK D7 */
                 , <&pro_micro_d 5 GPIO_ACTIVE_HIGH> /* QMK C6 */
                 ;
     };
