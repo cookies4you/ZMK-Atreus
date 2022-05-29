@@ -1,0 +1,11 @@
+file_format: "1"
+id: atreus62
+name: Atreus62
+type: shield
+url: https://github.com/cookies4you/ZMK-Atreus
+requires:
+  - nice_nano_v2
+exposes:
+features:
+  - keys
+siblings:
