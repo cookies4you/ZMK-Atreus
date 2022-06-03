@@ -48,7 +48,7 @@
                 , <&pro_micro_a 9 (GPIO_ACTIVE_HIGH>) /* QMK B5 */
                 , <&pro_micro_a 8 (GPIO_ACTIVE_HIGH>) /* QMK B4 */
                 , <&pro_micro_d 7 (GPIO_ACTIVE_HIGH>) /* QMK E6 */
-                , <&pro_micro_a 6 (GPIO_ACTIVE_HIGH>) /* QMK D7 */
+                , <&pro_micro_a 7 (GPIO_ACTIVE_HIGH>) /* QMK D7 */
                 , <&pro_micro_d 5 (GPIO_ACTIVE_HIGH>) /* QMK C6 */
                 ;
     };
