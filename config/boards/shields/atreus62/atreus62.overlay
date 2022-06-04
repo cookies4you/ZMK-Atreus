@@ -18,7 +18,7 @@
           RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4) RC(4,5) RC(4,6) RC(4,7) RC(4,8) RC(4,9) RC(4,10) RC(4,11) RC(4,12) RC(4,13)
         >;
     };
-/*
+
     kscan0: kscan_0 {
         compatible = "zmk,kscan-gpio-matrix";
         label = "KSCAN";
@@ -47,5 +47,5 @@
                 , <&pro_micro_a D6 GPIO_ACTIVE_HIGH>
                 , <&pro_micro_d D5 GPIO_ACTIVE_HIGH>
                 ;
-    };*/
+    };
 };
