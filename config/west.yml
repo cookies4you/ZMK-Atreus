@@ -1,10 +1,10 @@
 manifest:
   remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
+    - name: cookies4you
+      url-base: https://github.com/cookies4you
   projects:
     - name: zmk
-      remote: zmkfirmware
+      remote: cookies4you
       revision: main
       import: app/west.yml
   self:
